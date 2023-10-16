@@ -1,0 +1,1 @@
+Proyecto básico de React Native siguiendo los tutoriales en Platzi
