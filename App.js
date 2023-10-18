@@ -6,8 +6,8 @@ import Saludar from './src/components/Saludar';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Saludar name='mundo'/>
-      <Saludar name='Sergio López'/>
+      {/* <Saludar name='Sergio López'/> */}
+      <Saludar firstname='Sergio' lastname='López'/>
       <LoginForm/>      
     </View>
   );
