@@ -6,6 +6,7 @@ import LoginForm from './src/components/LoginForm';
 import Saludar from './src/components/Saludar';
 import NavitagionStack from './src/navigation/NavigationStack';
 import NavigationTab from './src/navigation/NavigationTab';
+import NavigationDrawer from './src/navigation/NavigationDrawer';
 
 export default function App() {
   return (
@@ -15,8 +16,9 @@ export default function App() {
         <Saludar firstname='Sergio' lastname='López'/>
         <LoginForm/>      
       </View> 
-      <NavitagionStack/> */}
-      <NavigationTab/>
+      <NavitagionStack/> 
+      <NavigationTab/>*/}
+      <NavigationDrawer/>
     </NavigationContainer>
 
   );
