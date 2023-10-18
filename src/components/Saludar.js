@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Text } from "react-native";
 
 export default function Saludar( props ) {
@@ -9,4 +10,9 @@ export default function Saludar( props ) {
 Saludar.defaultProps = {
     firstname: 'Sergio', 
     lastname: 'López'
+}
+
+Saludar.propTypes = {
+    firstname: PropTypes.string.isRequired, 
+    lastname: PropTypes.string.isRequired
 }
