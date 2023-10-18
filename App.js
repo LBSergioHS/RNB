@@ -5,6 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import LoginForm from './src/components/LoginForm';
 import Saludar from './src/components/Saludar';
 import NavitagionStack from './src/navigation/NavigationStack';
+import NavigationTab from './src/navigation/NavigationTab';
 
 export default function App() {
   return (
@@ -13,8 +14,9 @@ export default function App() {
          <Saludar name='Sergio López'/> 
         <Saludar firstname='Sergio' lastname='López'/>
         <LoginForm/>      
-      </View> */}
-      <NavitagionStack/>
+      </View> 
+      <NavitagionStack/> */}
+      <NavigationTab/>
     </NavigationContainer>
 
   );
