@@ -11,14 +11,7 @@ import NavigationDrawer from './src/navigation/NavigationDrawer';
 export default function App() {
   return (
     <NavigationContainer>
-      {/* <View style={styles.container}>
-         <Saludar name='Sergio López'/> 
-        <Saludar firstname='Sergio' lastname='López'/>
-        <LoginForm/>      
-      </View> 
-      <NavitagionStack/> 
-      <NavigationTab/>*/}
-      <NavigationDrawer/>
+      <NavigationTab/>
     </NavigationContainer>
 
   );
